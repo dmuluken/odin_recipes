@@ -1,0 +1,44 @@
+body {
+    width: 800px;
+    background-color: rgb(201, 239, 199);
+    margin: 0 auto;
+}
+
+.title {
+    display: block;
+}
+
+.logo {
+    margin: 16px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav {
+    margin: 8px auto;
+}
+
+a {
+    color: blue;
+    font-size: 20px;
+}
+
+a:hover {
+    color: lightblue;
+    background-color: rgb(85, 90, 90);
+}
+
+a:active {
+    color: rgb(194, 38, 124);
+}
+
+a::after {
+    color: purple;
+}
